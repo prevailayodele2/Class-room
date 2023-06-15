@@ -1,0 +1,44 @@
+body {
+  font-family: "Quicksand" !important;
+  font-size: 14px !important;
+  color: #00263D !important;
+  margin: 0px;
+}
+body.overflow {
+  overflow: hidden;
+}
+
+.layoutContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebarContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.4;
+  border: 3px solid blue;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.middleContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  border: 3px solid blue;
+}
+
+.rightbarContainer {
+  display: flex;
+  flex-direction: row;
+  flex: 0.6;
+  border: 3px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */
