@@ -1,14 +1,14 @@
 import { SnippetsOutlined, SettingOutlined, MailOutlined, CalendarOutlined,   } from '@ant-design/icons';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 const AppData = {
-   Sidebar:[
+   sidebar:[
     {
         title:'Dashboard',
-        icon: <SnippetsOutlined />
+        icon: <SnippetsOutlined  />
     },
     {
         title: 'Classes',
-        icon: <CalendarOutlined />
+        icon: <CalendarOutlined   />
     },
     {
         title: 'Chats',
@@ -16,7 +16,7 @@ const AppData = {
     },
     {
         title: 'Ebook',
-        icon: <MenuBookIcon />
+        icon: <MenuBookIcon  />
     },
     {
         title: 'Settiings',

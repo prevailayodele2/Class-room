@@ -1,0 +1,24 @@
+.popup-button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px 15px 20px 15px;
+}
+.popup-button-under{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap:10px;
+}
+.popup-name{
+    font-size: 16px;
+    font-family: 600;
+}
+.popup-image{
+    border-radius: 50%;
+    object-fit:cover;
+}
+.popup-button-icon{
+    font-size: 12px;
+}

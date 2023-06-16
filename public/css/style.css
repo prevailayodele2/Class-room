@@ -15,16 +15,53 @@ body.overflow {
 
 .sidebarContainer {
   display: flex;
+  width: auto;
+  height: 90vh;
+  max-height: 100%;
   flex-direction: column;
   justify-content: space-between;
-  flex: 0.4;
+  align-items: center;
   border: 3px solid blue;
+}
+
+.sidebar-first {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 50px;
+}
+
+.sidebar-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.Logo {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: monospace;
 }
 
 .sidebar-item {
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  padding: 14px;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.sidebar-item:hover {
+  background-color: #F5EFE7;
+}
+
+.sidebar-title {
+  font-size: 17px;
+}
+
+.sidebar-icon {
+  font-size: 20px;
 }
 
 .middleContainer {
@@ -39,6 +76,35 @@ body.overflow {
   flex-direction: row;
   flex: 0.6;
   border: 3px solid blue;
+}
+
+.popup-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px 20px 15px;
+}
+
+.popup-button-under {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.popup-name {
+  font-size: 16px;
+  font-family: 600;
+}
+
+.popup-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.popup-button-icon {
+  font-size: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */

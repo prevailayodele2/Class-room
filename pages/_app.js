@@ -1,12 +1,15 @@
-import Layout from "../components/Layout";
+import Layout from '../components/Layout';
+import { Provider } from 'react-redux';
+import { store } from './../redux/store';
 
-import '../public/css/style.css'
-
+import '../public/css/style.css';
 
 export default function Home() {
   return (
-    <main>
-     <Layout/>
-    </main>
-  )
+    <Provider store={store}>
+      <main>
+        <Layout />
+      </main>
+    </Provider>
+  );
 }
