@@ -1,7 +1,7 @@
 const RightBar = () => {
     return (
         <div className="rightbarContainer">
-            Enter
+            rightbar
         </div>
     );
 }

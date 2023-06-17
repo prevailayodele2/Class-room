@@ -1,16 +1,13 @@
 
-import Middle from './Middle';
-import Sidebar from './Sidebar';
-import RightBar from './RightBar';
+import Sidebar from "./Sidebar";
 
-const Layout = () => {
-    return (
-        <div className='layoutContainer'>
-            <Sidebar/>
-            <Middle />
-            <RightBar/>
-        </div>
-    );
-}
+const BaseLayout = ({ children }) => {
+  return (
+    <div className="layoutContainer">
+      <Sidebar />
+      <main className="layout__main-content">{children}</main>;
+    </div>
+  );
+};
 
-export default Layout
+export default BaseLayout;

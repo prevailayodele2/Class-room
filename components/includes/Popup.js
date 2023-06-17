@@ -22,7 +22,7 @@ const Popup = ({show}) => {
     >
       <Button className='popup-button'> 
        <div className='popup-button-under'>
-        <Image className='popup-image' src={User} width={show ? 32 : 20} height={show ? 32 : 20} alt='user'/>
+       {show ? <Image className='popup-image' src={User} width={show ? 35 : 20} height={show ? 35 : 20} alt='user'/> : ' '}
         <div className='popup-name'>{show? 'Treasure' : ' '}</div>
         <div className='popup-button-icon'>
             {open ?  <DownOutlined /> : <UpOutlined />  }

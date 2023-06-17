@@ -1,15 +1,10 @@
-import Layout from '../components/Layout';
-import { Provider } from 'react-redux';
-import { store } from './../redux/store';
+import { SidebarProvider } from "../Context/sidebarContext";
+import "../src/app/globals.css";
 
-import '../public/css/style.css';
-
-export default function Home() {
+export default function App({ Component, pageProps }) {
   return (
-    <Provider store={store}>
-      <main>
-        <Layout />
-      </main>
-    </Provider>
+    <SidebarProvider>
+      <Component {...pageProps} />
+    </SidebarProvider>
   );
 }

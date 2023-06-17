@@ -3,24 +3,24 @@ import MenuBookIcon from '@mui/icons-material/MenuBook';
 const AppData = {
    sidebar:[
     {
-        title:'Dashboard',
-        icon: <SnippetsOutlined  />
-    },
-    {
         title: 'Classes',
-        icon: <CalendarOutlined   />
+        icon: <CalendarOutlined />,
+        link: '/Classes'
     },
     {
         title: 'Chats',
-        icon: <MailOutlined />
+        icon: <MailOutlined />,
+        link: '/Chats'
     },
     {
         title: 'Ebook',
-        icon: <MenuBookIcon  />
+        icon: <MenuBookIcon  />,
+        link: '/Ebook'
     },
     {
-        title: 'Settiings',
-        icon: <SettingOutlined />
+        title: 'Settings',
+        icon: <SettingOutlined />,
+        link: '/Settings'
     },
 
    ]

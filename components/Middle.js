@@ -1,7 +1,7 @@
 const Middle = () => {
     return (
         <div className="middleContainer">
-            Enter
+            middel
         </div>
     );
 }
